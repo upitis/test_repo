@@ -13,7 +13,8 @@
           "appl-vce-0.12.2",
           "appl-vce-2.11.2",
           "appl-vce-3.11.2"
-        ]
+        ],
+        "as_promoted": false
       },
       {
         "state": "promoted",
@@ -28,7 +29,7 @@
           "appl-vce-3.11.2"
         ]
       },
-      true
+      {"ok": false}
     ],
     "aro1": [
       {
@@ -80,4 +81,3 @@
     ]
   }
 ]
-
