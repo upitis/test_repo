@@ -14,7 +14,7 @@
           "appl-vce-2.11.2",
           "appl-vce-3.11.2"
         ],
-        "as_promoted": "(/)"
+        "ok": "(X)"
       },
       {
         "state": "promoted",
@@ -27,8 +27,9 @@
           "appl-vce-0.12.2",
           "appl-vce-2.11.2",
           "appl-vce-3.11.2"
-        ]
-      }
+        ],
+        "ok": "(<3)"
+      },
     ],
     "aro1": [
       {
