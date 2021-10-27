@@ -1,83 +1,83 @@
 [
-  {
-    "service": "gauth",
-    "vce": [
-      {
-        "state": "current",
-        "charts": [
-          "nginx-vce-0.11.2",
-          "nginx-vce-3.11.2"
-        ],
-        "applications": [
-          "appl-vce-0.11.2",
-          "appl-vce-0.12.2",
-          "appl-vce-2.11.2",
-          "appl-vce-3.11.2"
-        ],
-        "ok": "(X)"
-      },
-      {
-        "state": "promoted",
-        "charts": [
-          "nginx-vce-0.11.2",
-          "nginx-vce-3.11.2"
-        ],
-        "applications": [
-          "appl-vce-0.11.2",
-          "appl-vce-0.12.2",
-          "appl-vce-2.11.2",
-          "appl-vce-3.11.2"
-        ],
-        "ok": "(<3)"
-      },
-    ],
-    "aro1": [
-      {
-        "state": "current",
-        "charts": [
-          "nginx-aro-0.11.2",
-          "nginx-aro-3.11.2"
-        ],
-        "applications": [
-          "appl-aro-0.11.2",
-          "appl-aro-0.12.2",
-          "appl-aro-2.11.2",
-          "appl-aro-3.11.2"
-        ]
-      }
-    ]
-  },
-  {
-    "service": "gws",
-    "vce": [
-      {
-        "state": "current",
-        "charts": [
-          "nginx-vce-0.11.2",
-          "nginx-vce-3.11.2"
-        ],
-        "applications": [
-          "appl-vce-0.11.2",
-          "appl-vce-0.12.2",
-          "appl-vce-2.11.2",
-          "appl-vce-3.11.2"
-        ]
-      }
-    ],
-    "aro1": [
-      {
-        "state": "current",
-        "charts": [
-          "nginx-aro-0.11.2",
-          "nginx-aro-3.11.2"
-        ],
-        "applications": [
-          "appl-aro-0.11.2",
-          "appl-aro-0.12.2",
-          "appl-aro-2.11.2",
-          "appl-aro-3.11.2"
-        ]
-      }
-    ]
-  }
+   {
+      "service":"gauth",
+      "vce":[
+         {
+            "state":"current",
+            "charts":[
+               "nginx-vce-0.11.2",
+               "nginx-vce-3.11.2"
+            ],
+            "applications":[
+               "appl-vce-0.11.2",
+               "appl-vce-0.12.2",
+               "appl-vce-2.11.2",
+               "appl-vce-3.11.2"
+            ],
+            "ok":"(X)"
+         },
+         {
+            "state":"promoted",
+            "charts":[
+               "nginx-vce-0.11.2",
+               "nginx-vce-3.11.2"
+            ],
+            "applications":[
+               "appl-vce-0.11.2",
+               "appl-vce-0.12.2",
+               "appl-vce-2.11.2",
+               "appl-vce-3.11.2"
+            ],
+            "ok":"(<3)"
+         }
+      ],
+      "aro1":[
+         {
+            "state":"current",
+            "charts":[
+               "nginx-aro-0.11.2",
+               "nginx-aro-3.11.2"
+            ],
+            "applications":[
+               "appl-aro-0.11.2",
+               "appl-aro-0.12.2",
+               "appl-aro-2.11.2",
+               "appl-aro-3.11.2"
+            ]
+         }
+      ]
+   },
+   {
+      "service":"gws",
+      "vce":[
+         {
+            "state":"current",
+            "charts":[
+               "nginx-vce-0.11.2",
+               "nginx-vce-3.11.2"
+            ],
+            "applications":[
+               "appl-vce-0.11.2",
+               "appl-vce-0.12.2",
+               "appl-vce-2.11.2",
+               "appl-vce-3.11.2"
+            ]
+         }
+      ],
+      "aro1":[
+         {
+            "state":"current",
+            "charts":[
+               "nginx-aro-0.11.2",
+               "nginx-aro-3.11.2"
+            ],
+            "applications":[
+               "appl-aro-0.11.2",
+               "appl-aro-0.12.2",
+               "appl-aro-2.11.2",
+               "appl-aro-3.11.2"
+            ]
+         }
+      ]
+   }
 ]
