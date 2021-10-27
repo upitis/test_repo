@@ -31,5 +31,5 @@ jobs:
           build_dir: build
           repo: https://github.com/kupitis/gen-pages.git
         env:
-          GH_PAT: ${{ KUPITISREPO }}
+          GH_PAT: ${{ secrets.KUPITISREPO }}
           
